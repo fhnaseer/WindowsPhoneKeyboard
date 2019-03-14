@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorGray"
     android:keyPreviewLayout="@layout/key_preview">
 
 </android.inputmethodservice.KeyboardView>

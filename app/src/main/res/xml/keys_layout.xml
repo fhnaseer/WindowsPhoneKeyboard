@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:horizontalGap="3px"
+    android:background="@color/colorWhite"
     android:keyWidth="10%p"
     android:keyHeight="60dp"
-    android:keyBackground="@color/colorPrimaryDark"
-    android:keyTextColor="@color/colorAccent"
-    android:verticalGap="3px">
+    android:horizontalGap="5px"
+    android:keyBackground="@color/colorWhite"
+    android:keyTextColor="@color/colorBlack"
+    android:verticalGap="4px">
     <Row>
         <Key
             android:codes="49"
@@ -165,7 +166,7 @@
         <Key
             android:codes="-4"
             android:keyWidth="20%p"
-            android:keyBackground="@color/colorPrimary"
+            android:keyBackground="@color/colorWhite"
             android:keyEdgeFlags="right"
             android:keyLabel="DONE" />
     </Row>
